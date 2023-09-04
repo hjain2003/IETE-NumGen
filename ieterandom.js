@@ -31,7 +31,7 @@ function randomgen()
     else
     {
         r1 = 1;
-        r2 = 125;
+        r2 = 80;
         randy = r1 + (r2 - r1) * Math.random();
         rand = Math.round(randy);
         localStorage.setItem("Number",rand);
